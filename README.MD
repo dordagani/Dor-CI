@@ -5,6 +5,8 @@ Flask CI is a flask based application build by ci/cd concept with complete autom
 ** Server access information will be sent separately! **
 ** The repository that contains the code I wrote:: https://github.com/dordagani/dor_app **
 
+**This is bold text**
+
 ## Pre-requistes
 
 Two Linux servers (the guide is tested on Amazon Linux AMI):
