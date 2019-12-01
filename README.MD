@@ -43,6 +43,8 @@ Add Docker Hub Credentials:
 3. Click OK
 
 
+Change the IP address of the Docker-Prod_Server in the file /provision/inventory.ini
+
 ## Usage 
 
 When user performs git push to GitHub repository, the following process is performed automatically:
