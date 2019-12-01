@@ -29,7 +29,7 @@ Adding a GitHub Webhook in Your Jenkins Pipeline :
 5. Write the Payload URL as
    http://<jenkins_ip>/github-webhook/
 
-![Git WebHook](/images/git_webhook.png)
+<p align="center"><img src="/images/git_webhook.png" /></p>
 
 Create a pipeline job from the Jenkins interface :
 
