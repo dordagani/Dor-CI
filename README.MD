@@ -4,7 +4,7 @@ Flask CI is a flask based application build by ci/cd concept with complete autom
 
 **Server access information will be sent separately!**
 
-**The repository that contains the code that I wrote (with Jenkinsfile): https://github.com/dordagani/dor_app**
+**The repository contains the code that I wrote (with Jenkinsfile): https://github.com/dordagani/dor_app**
 
 
 ## Pre-requistes
