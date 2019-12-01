@@ -12,6 +12,7 @@ Flask CI is a flask based application build by ci/cd concept with complete autom
 Two Linux servers (the guide is tested on Amazon Linux AMI):
 
 1. Install the first server ("CI_Server") according to the following guide:
+[link](Guides/docker.MD#section)
 
 2. Install the second server ("Docker-Prod_Server") according to the following guide:
 
@@ -47,6 +48,3 @@ Add Docker Hub Credentials:
 When user performs git push to GitHub repository, the following process is performed automatically:
 
 ![ScreenShot](/images/Dor_CI.png)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
