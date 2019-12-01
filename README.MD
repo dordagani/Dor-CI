@@ -46,8 +46,9 @@ Add Docker Hub Credentials:
 2. Add your Docker Hub credentials as the type Username with password, with the ID docker-hub-credentials
 3. Click OK
 
+<p align="center"><img src="/images/docker_hub_cred.png" /></p>
 
-Change the IP address of the Docker-Prod_Server in the file /provision/inventory.ini
+Change the local IP address of the Docker-Prod_Server in the file /provision/inventory.ini
 
 ## Usage 
 
