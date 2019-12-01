@@ -41,7 +41,7 @@ Add Docker Hub Credentials:
 
 When user performs git push to GitHub repository, the following process is performed automatically:
 
-![ScreenShot](/images/Dor-CI.png)
+![ScreenShot](/images/Dor_CI.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
