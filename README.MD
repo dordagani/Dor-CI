@@ -29,6 +29,8 @@ Adding a GitHub Webhook in Your Jenkins Pipeline :
 5. Write the Payload URL as
    http://<jenkins_ip>/github-webhook/
 
+![Git WebHook](/images/git_webhook.png)
+
 Create a pipeline job from the Jenkins interface :
 
 1. Click New Item on your Jenkins home page, enter a name for your (pipeline) job, select Pipeline, and click OK.
@@ -49,4 +51,4 @@ Change the IP address of the Docker-Prod_Server in the file /provision/inventory
 
 When user performs git push to GitHub repository, the following process is performed automatically:
 
-![ScreenShot](/images/Dor_CI.png)
+![flow](/images/Dor_CI.png)
