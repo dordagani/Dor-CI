@@ -13,6 +13,7 @@ Two Linux servers (the guide is tested on Amazon Linux AMI):
 
 ## Config
 
+
 Adding a GitHub Webhook in Your Jenkins Pipeline :
 
 1. Go to your project repository.
@@ -40,8 +41,7 @@ Add Docker Hub Credentials:
 
 When user performs git push to GitHub repository, the following process is performed automatically:
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Optional Text](../images/Dor-CI.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
