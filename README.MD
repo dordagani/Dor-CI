@@ -48,6 +48,14 @@ Add Docker Hub Credentials:
 
 <p align="center"><img src="/images/docker_hub_cred.png" /></p>
 
+Add Docker Production SSH Credentials ("Docker-Prod_Server"): 
+
+1. Click Credentials -> System -> Global Credentials 
+2. Add your Docker Production SSH credentials as the type Username with password, with the ID docker-prod-credentials
+3. Click OK
+
+<p align="center"><img src="/images/docker_prod_cred.png" /></p>
+
 Change the local IP address of the Docker-Prod_Server in the file /provision/inventory.ini
 
 ## Usage 
