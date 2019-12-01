@@ -2,6 +2,8 @@
 
 ### Pre-requisites
 1. Amazon Linux EC2 Instance
+   - With Internet Access
+   - Security Group with Port `80` open for internet
 
 ## Installation Steps
 
