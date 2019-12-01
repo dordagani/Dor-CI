@@ -1,0 +1,47 @@
+# Flask CI 
+
+Flask CI is an flask application to be used as a proof of concept for a presentation at Tikal.
+
+## Pre-requistes
+
+Two Linux servers (the guide is tested on Amazon Linux AMI):
+
+1. Install the first server ("CI_Server") according to the following guide:
+
+2. Install the second server ("Docker-Prod_Server") according to the following guide:
+
+
+## Config
+
+Adding a GitHub Webhook in Your Jenkins Pipeline :
+
+1. Go to your project repository.
+2. Go to "settings" in the right corner.
+3. Click on "webhooks."
+4. Click "Add webhooks."
+5. Write the Payload URL as
+   http://<jenkins_ip>/github-webhook/
+
+Create a pipeline job from the Jenkins interface :
+
+1. Click New Item on your Jenkins home page, enter a name for your (pipeline) job, select Pipeline, and click OK.
+2. Check the "GitHub hook trigger for GITScm polling" option below the Build Triggers area. 
+3. Change Pipeline Definition to "Pipeline script from SCM", set the SCM to "Git" and add the Repository URL (for example: https://github.com/dordagani/dor_app.git)
+4. Click Save.
+
+Add Docker Hub Credentials: 
+
+1. Click Credentials -> System -> Global Credentials 
+2. Add your Docker Hub credentials as the type Username with password, with the ID docker-hub-credentials
+3. Click OK
+
+
+## Usage 
+
+When user performs git push to GitHub repository, the following process is performed automatically:
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
