@@ -62,4 +62,4 @@ Change the local IP address of the Docker-Prod_Server in the file /provision/inv
 
 When user performs git push to GitHub repository, the following process is performed automatically:
 
-![flow](/images/Dor_CI.png)
+![flow](/images/dor-ci.png)
