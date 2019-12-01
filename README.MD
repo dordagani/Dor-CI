@@ -1,6 +1,9 @@
 # Flask CI 
 
-Flask CI is an flask application to be used as a proof of concept for a presentation at Tikal.
+Flask CI is a flask based application build by ci/cd concept with complete automation of building testing and deploying the software.
+
+** Server access information will be sent separately! **
+** The repository that contains the code I wrote:: https://github.com/dordagani/dor_app **
 
 ## Pre-requistes
 
