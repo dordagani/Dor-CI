@@ -35,8 +35,10 @@ Create a pipeline job from the Jenkins interface :
 
 1. Click New Item on your Jenkins home page, enter a name for your (pipeline) job, select Pipeline, and click OK.
 2. Check the "GitHub hook trigger for GITScm polling" option below the Build Triggers area. 
-3. Change Pipeline Definition to "Pipeline script from SCM", set the SCM to "Git" and add the Repository URL (for example: https://github.com/dordagani/dor_app.git)
+3. Change Pipeline Definition to "Pipeline script from SCM", set the SCM to "Git" and add the Repository URL (https://github.com/dordagani/dor_app.git)
 4. Click Save.
+
+<p align="center"><img src="/images/pipeline_job.png" /></p>
 
 Add Docker Hub Credentials: 
 
