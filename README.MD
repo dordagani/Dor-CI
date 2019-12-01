@@ -56,7 +56,7 @@ Add Docker Production SSH Credentials ("Docker-Prod_Server"):
 
 <p align="center"><img src="/images/docker_prod_cred.png" /></p>
 
-Change the local IP address of the Docker-Prod_Server in the file /provision/inventory.ini
+Change the local IP address of the Docker-Prod_Server in the file /provision/inventory.ini so that Ansible will be able to connect to the correct Docker server
 
 ## Usage 
 
